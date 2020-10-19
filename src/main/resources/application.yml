@@ -1,0 +1,14 @@
+# Service registers under this name
+spring:
+  application:
+    name: M2
+
+# HTTP Server (Tomcat) Port
+server:
+  port: 3333
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
