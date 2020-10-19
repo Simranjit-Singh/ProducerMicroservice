@@ -1,5 +1,10 @@
 # ProducerMicroservice
 
+Creating Producer Microservice
+
+Register itself with Discovery Service
+
+@EnableDiscoveryClient activates the Netflix Eureka DiscoveryClient implementation
 
 
 H2 Database Console URL :http://localhost:3333/h2-console/                                                                                                                          
